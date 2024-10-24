@@ -1,4 +1,5 @@
-import { Fa42Group } from "react-icons/fa6"
+import Image from "next/image"
+
 
 const Feature = () => {
   return (
@@ -30,8 +31,8 @@ const Feature = () => {
             </div>
           </div>
           <div className="w-[100%] md:w-[100%] lg:w-[50%] bg-gray-300 rounded-3xl relative ml-auto">
-              <img src="/About Pic.png" alt="About pic" className="w-full"/>
-              <img src="/Plate.png" alt="About pic" className="absolute top-10 lg:-left-40 w-64 lg:w-80"/>
+              <Image src="/images/About Pic.png" width={150} height={150} alt="About pic" className="w-full"/>
+              <Image src="/images/Plate.png" width={150} height={150} alt="About pic" className="absolute top-10 lg:-left-40 w-64 lg:w-80"/>
           </div>
         </div>
     </div>

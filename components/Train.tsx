@@ -13,21 +13,21 @@ const Train = () => {
                 </div>
                 <div className="md:pl-32 relative">
                     <Image 
-                    src="/Bottle 1.png"
+                    src="/images/Bottle 1.png"
                     alt="camp"
                     width={200}
                     height={200}
                     className="absolute -top-32 right-0"
                     />
                     <Image 
-                    src="/Bag.png"
+                    src="/images/Bag 1167x1007.png"
                     alt="camp"
                     width={500}
                     height={500}
                     className="m-auto relative"
                     />
                     <Image 
-                    src="/Gloves.png"
+                    src="/images/Gloves 386x666.png"
                     alt="camp"
                     width={150}
                     height={150}

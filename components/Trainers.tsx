@@ -1,4 +1,6 @@
 import { Tab, TabGroup, TabList, TabPanel, TabPanels } from '@headlessui/react'
+import Image from "next/image"
+
 
 
 const categories = [
@@ -8,37 +10,37 @@ const categories = [
         {
           id: 1,
           title: 'Bryan Tailor',
-          img: '/avatar-1.png',
+          img: '/images/avatar-1.png',
           role: 'Yoga Master',
         },
         {
           id: 1,
           title: 'Bryan Tailor',
-          img: '/avatar-2.png',
+          img: '/images/avatar-2.png',
           role: 'Yoga Master',
         },
         {
           id: 1,
           title: 'Bryan Tailor',
-          img: '/avatar-3.png',
+          img: '/images/avatar-3.png',
           role: 'Yoga Master',
         },
         {
           id: 1,
           title: 'Bryan Tailor',
-          img: '/avatar-4.png',
+          img: '/images/avatar-4.png',
           role: 'Yoga Master',
         },
         {
           id: 1,
           title: 'Bryan Tailor',
-          img: '/avatar-5.png',
+          img: '/images/avatar-5.png',
           role: 'Yoga Master',
         },
         {
           id: 1,
           title: 'Bryan Tailor',
-          img: '/avatar-6.png',
+          img: '/images/avatar-6.png',
           role: 'Yoga Master',
         },
       ],
@@ -49,31 +51,31 @@ const categories = [
         {
           id: 1,
           title: 'Bryan Tailor',
-          img: '/avatar-1.png',
+          img: '/images/avatar-1.png',
           role: 'Yoga Master',
         },
         {
           id: 1,
           title: 'Bryan Tailor',
-          img: '/avatar-2.png',
+          img: '/images/avatar-2.png',
           role: 'Yoga Master',
         },
         {
           id: 1,
           title: 'Bryan Tailor',
-          img: '/avatar-4.png',
+          img: '/images/avatar-4.png',
           role: 'Yoga Master',
         },
         {
           id: 1,
           title: 'Bryan Tailor',
-          img: '/avatar-5.png',
+          img: '/images/avatar-5.png',
           role: 'Yoga Master',
         },
         {
           id: 1,
           title: 'Bryan Tailor',
-          img: '/avatar-6.png',
+          img: '/images/avatar-6.png',
           role: 'Yoga Master',
         },
       ],
@@ -84,25 +86,25 @@ const categories = [
         {
           id: 1,
           title: 'Bryan Tailor',
-          img: '/avatar-3.png',
+          img: '/images/avatar-3.png',
           role: 'Yoga Master',
         },
         {
           id: 1,
           title: 'Bryan Tailor',
-          img: '/avatar-4.png',
+          img: '/images/avatar-4.png',
           role: 'Yoga Master',
         },
         {
           id: 1,
           title: 'Bryan Tailor',
-          img: '/avatar-5.png',
+          img: '/images/avatar-5.png',
           role: 'Yoga Master',
         },
         {
           id: 1,
           title: 'Bryan Tailor',
-          img: '/avatar-6.png',
+          img: '/images/avatar-6.png',
           role: 'Yoga Master',
         },
       ],
@@ -134,7 +136,7 @@ const Trainers = () => {
                   {posts.map((post) => (
                     <li key={post.id} className="flex flex-col items-center">
                       <a href="#" className="">
-                        <img src={post.img} alt={post.role} width={150} height={150} className='bg-gray-300 border border-white hover:border-orange-500 rounded-xl' />
+                        <Image src={post.img} alt={post.role} width={150} height={150} className='bg-gray-300 border border-white hover:border-orange-500 rounded-xl' />
                         <h1 className='flex justify-center pt-5 font-semibold'>{post.title} </h1>
                         <p className='flex justify-center pt-2 text-gray-400'>{post.role}</p>
                       </a>

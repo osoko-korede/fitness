@@ -15,28 +15,28 @@ const Hero = () => {
             </div>
             <div className=" md:pl-32 relative pt-40 items-center">
                 <Image 
-                src="/Fitness Bottle.png"
+                src="/images/Fitness Bottle.png"
                 alt="camp"
                 width={250}
                 height={250}
                 className="absolute top-10 right-0  sm:right-20 sm:w-[250px] w-[170px] md:w-[170px]"
                 />
                 <Image 
-                src="/Fitness Watch.png"
+                src="/images/Fitness Watch.png"
                 alt="camp"
                 width={500}
                 height={500}
                 className="m-auto relative md:w-[1000px] lg:w-[700px]"
                 />
                 <Image 
-                src="/Ball.png"
+                src="/images/Ball.png"
                 alt="camp"
                 width={250}
                 height={250}
                 className="absolute bottom-10 right-1 w-[170px] md:w-[130px]"
                 />
                 <Image 
-                src="/Black Ball.png"
+                src="/images/Black Ball.png"
                 alt="camp"
                 width={70}
                 height={70}

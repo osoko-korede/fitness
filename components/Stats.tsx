@@ -45,15 +45,15 @@ const Stats = () => {
                 <p className=" text-lg font-light md:w-1/2 text-center">From the comfort of your living room to a hotel room across the globe, we put the best classes at your fingertips. No WiFi? Download videos offline for a practice that moves with you.</p>
                 <div className="hidden sm:flex gap-10 max-container pt-10 justify-between " >
                     <div className="flex flex-col items-center w-1/4">
-                        <img src="/Hand Grip Circle.png" alt="Hand Grip" width={200} height={200}/>
+                        <Image src="/images/Hand Grip Circle.png" alt="Hand Grip" width={200} height={200}/>
                         <h1 className="font-semibold text-2xl text-center pt-7">Intuitive and clean design</h1>
                     </div>
                     <div className="flex flex-col items-center w-1/4">
-                        <img src="/Gloves Circle.png" alt="Gloves" width={190} height={200}/>
+                        <Image src="/images/Gloves Circle.png" alt="Gloves" width={190} height={200}/>
                         <h1 className="font-semibold text-2xl text-center pt-7">Track your progress easily</h1>
                     </div>
                     <div className="flex flex-col items-center w-1/4" >
-                        <img src="/Circle Bottle.png" alt="Bottle" width={185} height={200}/>
+                        <Image src="/images/Circle Bottle.png" alt="Bottle" width={185} height={200}/>
                         <h1 className="font-semibold text-2xl text-center pt-7">Syncs with Apple Health</h1>
                     </div>
                 </div>
@@ -64,19 +64,19 @@ const Stats = () => {
             <div className="carousel carousel-center max-w-2xl space-x-4 pl-10 p-4 sm:hidden ">
                 <div className="carousel-item">
                     <div className="flex flex-col items-center w-2/3">
-                        <img src="/Hand Grip Circle.png" alt="Hand Grip" width={200} height={200}/>
+                        <Image src="/images/Hand Grip Circle.png" alt="Hand Grip" width={200} height={200}/>
                         <h1 className="font-semibold text-2xl text-center pt-7">Intuitive and clean design</h1>
                     </div>
                 </div>
                 <div className="carousel-item">
                     <div className="flex flex-col items-center w-2/3">
-                        <img src="/Gloves Circle.png" alt="Gloves" width={190} height={200}/>
+                        <Image src="/images/Gloves Circle.png" alt="Gloves" width={190} height={200}/>
                         <h1 className="font-semibold text-2xl text-center pt-7">Track your progress easily</h1>
                     </div>
                 </div>
                 <div className="carousel-item">
                 <div className="flex flex-col items-center w-2/3" >
-                        <img src="/Circle Bottle.png" alt="Bottle" width={185} height={200}/>
+                        <Image src="/images/Circle Bottle.png" alt="Bottle" width={185} height={200}/>
                         <h1 className="font-semibold text-2xl text-center pt-7">Syncs with Apple Health</h1>
                     </div>
                 </div>
@@ -106,7 +106,7 @@ const Stats = () => {
                 </div>
                 <div className="relative">
                     <Image 
-                    src="/Phones.png"
+                    src="/images/Phones.png"
                     alt="camp"
                     width={500}
                     height={500}

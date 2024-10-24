@@ -13,21 +13,21 @@ const Description = () => {
                 </div>
                 <div className="pl-32 relative">
                     <Image 
-                    src="/Bag.png"
+                    src="/images/Bag 1167x1007.png"
                     alt="camp"
                     width={500}
                     height={500}
                     className="m-auto"
                     />
                     <Image 
-                    src="/Gloves.png"
+                    src="/images/Gloves 386x666.png"
                     alt="camp"
                     width={150}
                     height={150}
                     className="absolute top-1 left-20"
                     />
                     <Image 
-                    src="/Bottle 1.png"
+                    src="/images/Bottle 1.png"
                     alt="camp"
                     width={200}
                     height={200}

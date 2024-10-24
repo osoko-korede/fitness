@@ -8,28 +8,28 @@ const Book = () => {
             <div className="flex flex-col lg:flex-row max-container items-center lg:m-auto  ">
                 <div className="lg:w-1/2 relative">
                     <Image 
-                    src="/Book Pic.png"
+                    src="/images/Book Pic.png"
                     alt="camp"
                     width={1000}
                     height={1000}
                     className="m-auto"
                     />
                     <Image 
-                    src="/Dumbbells.png"
+                    src="/images/Dumbbells.png"
                     alt="camp"
                     width={150}
                     height={150}
                     className="absolute bottom-20 -right-10"
                     />
                     <Image 
-                    src="/Ball.png"
+                    src="/images/Ball.png"
                     alt="camp"
                     width={250}
                     height={250}
                     className="absolute -top-28 right-0 -z-10"
                     />
                     <Image 
-                    src="/Green Ball.png"
+                    src="/images/Green Ball.png"
                     alt="camp"
                     width={250}
                     height={250}
